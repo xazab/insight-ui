@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/insight-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Dash network and build your own services with it.",
+  "name": "@xazab/insight-ui",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Xazab network and build your own services with it.",
   "version": "3.0.0",
-  "repository": "git://github.com/dashevo/insight-ui.git",
+  "repository": "git://github.com/xazab/insight-ui.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -30,20 +30,20 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashevo/insight-ui/issues"
+    "url": "https://github.com/xazab/insight-ui/issues"
   },
-  "homepage": "https://github.com/dashevo/insight-ui",
+  "homepage": "https://github.com/xazab/insight-ui",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "dash",
-    "bitcore-dash",
+    "xazab",
+    "bitcore-xazab",
     "front-end",
-    "dashcore"
+    "xazabcore"
   ],
-  "dashcoreNode": "dashcore-node",
+  "xazabcoreNode": "xazabcore-node",
   "scripts": {
     "build": "bower install && grunt compile",
     "watch": "grunt",
@@ -66,7 +66,7 @@
     "grunt-macreload": "*",
     "grunt-markdown": "~0.7.0",
     "mocha": "^6.1.3",
-    "@dashevo/dp-services-ctl": "^0.7.1",
+    "@dash/dp-services-ctl": "^0.7.1",
     "chai": "^4.2.0",
     "protractor": "5.4.4",
     "eslint": "^5.6.1",
